@@ -10,9 +10,9 @@ body {
 }
 
 img {
-    border-radius: 100px;
-    margin-top: 30px;
-    /*background-color: #FFF;*/
+    width: 150px;
+    border-radius: 80px;
+    margin-top: 160px;
 }
 
 li {
@@ -31,7 +31,7 @@ li {
   padding-top: 32px;/*espaçamento superior*/
   height: 60px;
   background-color: #724796;
- 
+    margin-bottom: 200px;
  }
 
  .header-menu nav{
@@ -54,9 +54,26 @@ li {
  }
 
 .principal {
-    height: 100vh;
+    height: 120vh;
     display: flex;
     background-color: #EDEAEA;
+}
+
+.principal h1{
+    color: #938DF8;
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+.principal h2{
+    margin-bottom: 20px;
+    color: #C5C0C0;
+}
+
+.description-portfolio{
+    width: 600px;
+    height: 180px;
 }
 
 /* O container é um componente do Bootstrap que garante que o seu layout vai ficar alinhado corretamente na página.
@@ -79,6 +96,7 @@ Ele pode definir as margens laterais da página, ou deixar sem margens e, també
 }
 
 .topico-principal{
+    padding-top: 40px;
     font-size: 36px;
     color: #ff4dbc;
 }
@@ -88,6 +106,7 @@ Ele pode definir as margens laterais da página, ou deixar sem margens e, també
 }
 
 .lista-item ul li {
+    text-decoration: none;
     margin-bottom: 32px;
 }
 
@@ -109,16 +128,22 @@ Ele pode definir as margens laterais da página, ou deixar sem margens e, també
     height: 30vh;
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 
 .lista-footer{
     text-decoration: none;
     color: #fff;
     font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 12px;
+    font-size: 14px;
+    margin: 12px;
     display: flex;
     align-items: center;
+}
+
+.lista-footer img {
+   width: 20px;
+   margin: 8px;
 }
 
 .wrapper-portfolio{
